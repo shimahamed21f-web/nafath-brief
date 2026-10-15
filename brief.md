@@ -20,10 +20,17 @@ When offline, the responder's app should keep working by reading and writing to 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 ## Networking
+A network slice is a logical network that provides specific network capabilities and characteristics. A slice instance includes the core network control plane and user plane functions, plus at least one access part, such as NG-RAN. An operator can deploy several slices with the same features for different groups, for example because each has a different committed service. A dedicated slice could serve emergency responders, using the standardised URLLC type (SST 2) for ultra-reliable, low-latency communication.
+
+Resource: ETSI TS 123 501 V18.5.0 (2024-05) 5G; System architecture for the 5G System (5GS)-https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.05.00_60/ts_123501v180500p.pdf
 
 ## Cybersecurity
+A star schema has a central fact table, which holds numeric measures, connected directly to dimension tables that describe business entities, such as date and region. A snowflake schema normalizes a dimension into several related tables, which means more tables to join. For daily usage reports per region, a star schema suits better: a usage fact table with date and region dimensions is simple to query, and dimensions can filter and group the data.
+
+Resource: Understand star schema and the importance for Power BI - Power BI | Microsoft Learn - https://learn.microsoft.com/power-bi/guidance/star-schema
 
 ## Data
+
 
 ## Misconception in My Track
 
