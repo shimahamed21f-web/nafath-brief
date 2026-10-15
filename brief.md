@@ -30,7 +30,9 @@ A star schema has a central fact table, which holds numeric measures, connected 
 Resource: Understand star schema and the importance for Power BI - Power BI | Microsoft Learn - https://learn.microsoft.com/power-bi/guidance/star-schema
 
 ## Data
+A star schema has a central fact table, which holds numeric measures, connected directly to dimension tables that describe business entities, such as date and region. A snowflake schema normalizes a dimension into several related tables, which means more tables to join. For daily usage reports per region, a star schema suits better: a usage fact table with date and region dimensions is simple to query, and dimensions can filter and group the data.
 
+Resource: Understand star schema and the importance for Power BI - Power BI | Microsoft Learn - https://learn.microsoft.com/power-bi/guidance/star-schema
 
 ## Misconception in My Track
 
