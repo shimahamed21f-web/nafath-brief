@@ -35,5 +35,10 @@ A star schema has a central fact table, which holds numeric measures, connected 
 Resource: Understand star schema and the importance for Power BI - Power BI | Microsoft Learn - https://learn.microsoft.com/power-bi/guidance/star-schema
 
 ## Misconception in My Track
+Many people believe a network slice is a separate physical network with its own dedicated hardware. In fact, 3GPP defines a network slice as a logical network, so it is not a separate physical network by definition. Slices are identified and selected by S-NSSAI values, not by building separate physical networks. The proof is in TS 23.501, Section 3.1 Definitions, which states: "Network Slice: A logical network that provides specific network capabilities and network characteristics.
+
+Resource: ETSI TS 123 501 V18.5.0 (2024-05) 5G; System architecture for the 5G System (5GS)-https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.05.00_60/ts_123501v180500p.pdf
+
 
 ## Open Question
+I would verify how the operator keeps the responder slice usable during congestion, for example how Network Slice Admission Control (clause 5.15.11) limits the number of UEs or PDU sessions, and what service guarantees can be tested.
